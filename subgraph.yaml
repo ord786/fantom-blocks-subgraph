@@ -1,12 +1,12 @@
 specVersion: 0.0.2
-description: Indexing all MATIC Block data
-repository: https://github.com/ord786/matic-blocks-subgraph
+description: Indexing all FANTOM Block data
+repository: https://github.com/ord786/fantom-blocks-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Contract
-    network: matic
+    network: fantom
     source:
       address: "0x0ddff327ddf7fe838e3e63d02001ef23ad1ede8e"
       abi: ConverterRegistryContract

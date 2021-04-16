@@ -14,5 +14,5 @@ graph deploy \
     --debug \
     --node https://api.thegraph.com/deploy/ \
     --ipfs https://api.thegraph.com/ipfs/ \
-    apyvision/block-info
+    ord786/fantom-blocks
 ```
